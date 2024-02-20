@@ -1,0 +1,319 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+
+.cabecilla {
+    width: 100%;
+    display: grid;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.Tienda{
+    color:rgb(110,46,8);
+    font-family: 'Caveat',cursive;
+    font-weight: 700;
+    grid-column: 4/6;
+    text-align: center;
+    }
+
+.buscador_notis {
+    grid-column: 6/8;
+    align-items: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buscador{
+    display: flex;
+}
+
+
+.redondeado{
+    border-radius: 18px 0px 0px 18px ;
+    border-color: brown;
+    text-indent: 10px;
+    margin-right: -10px;
+    box-shadow: none;
+}
+
+
+.notificaciones {
+    padding-left: 20px;
+    display: flex;
+    width: 30%;
+    margin-right: 10px;
+    color: chocolate;
+    justify-content: space-around;
+}
+
+.i-notificacion{
+    padding-right: 25px;
+    font-size: small;
+    color: brown;
+}
+
+nav {
+    background-color:rgb(182, 154, 118);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.links-nav {
+    padding-top: 15px;
+
+}
+.links-nav a {
+    padding-top: 15px;
+    color: white;
+    margin-right: 45px;
+    text-decoration: none;
+}
+
+.img-banner {
+    background-image: url("../assets/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.texto-superpuesto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-shadow: dimgray 100%;
+}
+
+.frase-recuerdos {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    padding-top: 1%;  
+  }
+
+
+  .recomendaciones {
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-bottom: -5%;
+    width: 90%;
+}
+
+  .libros {
+    padding-left: 5%;
+    width: 100%;
+    overflow: auto;
+}
+
+  .tarjetas-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+  }
+
+
+.tarjeta-libro {
+    padding-top: 15px;
+    padding-bottom: -55px;
+    display: flex;
+    text-align: center;
+    font-size:small;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    width: 150px;
+}
+
+.portada-libro {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    padding-bottom: 100px;
+    
+}
+
+.portada-libro img {
+    width: 100%;
+    height: 70%; 
+}
+
+.call-compra {
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+
+}
+
+.call-compra p {
+    color: darkgoldenrod;
+}
+
+
+
+button {
+    background-color: brown;
+    color: white;
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;   
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;   
+}
+
+button:hover {
+    background-color:rgb(211, 83, 83);
+}
+
+
+.container-conocenos {
+width: 100%;
+height: 500px;
+}
+
+.texto-conocenos {
+    width: 50%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+aside {
+    width: 50%;
+    background-image: url("../assets/Conocenos/6edcfeeaf62b8c26ff0781fb4a447599.jpg"); 
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+footer{
+    display: grid;
+    width: 100%;
+    height:auto;
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color:rgb(182, 154, 118);
+    color: white;
+}
+
+
+
+
+.info-shop{
+    display: flex;
+    align-items: center;
+
+}
+
+.info-tel{
+    display: flex;
+    align-items: center;
+}
+
+.info-mail{
+    display: flex;
+    align-items: center;
+}
+
+.columnas-footer {
+    width: 30%;
+    grid-column: 1/4;
+
+}
+
+.info-contacto {
+    width: 100%;
+    align-items: left;
+    text-justify: left;
+}
+
+.info-contacto >p{
+    color: rgb(47, 13, 107);
+}
+    
+
+footer{
+    display: flex;
+}
+footer > div{
+    width: 33%;
+    padding: 0px 15px;
+}
+
+
+.headers-footer {
+    border-bottom:solid 2px white;
+}
+
+.social-icons {
+    width: 100%;
+    color: rgb(47, 13, 107);
+    font-size:large;
+    text-align: center;
+}
+
+
+
+ul{
+    list-style: none;
+    text-align: left;
+    text-indent: -35px;
+}
+
+
+.campo-input{
+    border-color: chocolate;
+    text-indent: 10px;
+    margin-right: -10px;
+    box-shadow: none;
+}
+
+.btn-enviar{
+    width: 80px;
+    height: 22px;
+    margin-left: 8px;
+    padding-top:2px;
+}
+
+.info-contacto p{
+    margin-left: 15px;
+}
+.info-contacto i{
+    color: rgb(47, 13, 107);
+    font-weight: bolder;
+}
